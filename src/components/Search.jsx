@@ -19,7 +19,6 @@ function Search() {
   };
 
   function sendData (data) {
-    console.log(data);
     navigate('/countries', {state:{ data }})
   };
 
