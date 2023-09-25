@@ -1,70 +1,21 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2>Country Search</h2>
+<p>This project is based on the React framework and utililizes the <a href src="https://restcountries.com/">REST Countries API</a> to search for countries based on different types of criteria and select a country to view details on it. In these details, it would provide information such as the population, capital, subregion, languages, currencies, and timezones located in. Utilizing the <a href="https://www.npmjs.com/package/@react-google-maps/api">@react-google-maps/api</a> package, it will also display the country in google maps using latitude and longitude data provided from the REST countries API. The purpose of this project was to familiarize with the React framework as this was my first solo project to use this. I had a previous project for school for mobile development in Flutter that utizled also utilized the REST Countries API. This project taught me a few things about the React Framework which will be listed below</p></br> 
+<h3>User Searches for a a country based on name, currency, or language</h3>
+<img src="https://user-images.githubusercontent.com/93947154/270463256-e6a1ee3b-a006-4dd1-9dcf-a3fec3cb5aa6.png"></img>
+<h3>Users selects a country based on search results</h3>
+<img src="https://user-images.githubusercontent.com/93947154/270463273-29b0588b-2a54-40fd-a7be-95cf39530422.png"></img>
+<h3>User views the country detials and sees it in google maps</h3>
+<img src="https://user-images.githubusercontent.com/93947154/270463282-80f50039-553c-4407-bd76-6d29a1a03918.png"></img>
+<img src="https://user-images.githubusercontent.com/93947154/270463299-f5b89a72-63c8-4619-bf7c-f265356251f2.png"></img>
+</br>
+<h3>Lessons learned from the Project</h3>
+<ul>
+<li>How general behavior in React works</li>
+<li>Using Axios to fetch data from an API in React</li>
+<li>Passing data with hooks</li>
+<li>Passing data down to other compoenents using props</li>
+<li>React-router behavior</li>
+<li>Integrating Google Maps into a React Application</li>
+<li>CSS grids</li>
+<li>Integrating a 3rd party API with a React Application</li>
+</ul>
