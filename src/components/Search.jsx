@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -14,7 +13,7 @@ function Search() {
     const param = inputType + input
     const baseUrl = "https://restcountries.com/v3.1/";
     const search = baseUrl + param;
-    axios.get(search).then((response) => sendData(response.data))
+    sendData(search)
 
   };
 
@@ -25,17 +24,9 @@ function Search() {
 
   return (
     <>
-      <div
-        id="search"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          height: "100vh",
-        }}
-      >
+      <div id="search">
         <form onSubmit={handleSubmit}>
-          <h3 className="text-center">Search</h3>
+          
           <div className="input-group mb-3">
             <input
               type="text"

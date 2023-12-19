@@ -1,15 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import './App.css';
 import Countries from "./components/Countries";
 import CountryDetails from "./components/CountryDetails";
-import Search from './components/Search';
+import HomePage from "./components/HomePage";
 
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Search />} />
+        <Route path='/' element={<HomePage />} />
         <Route path='countries' element={<Countries />} />
         <Route path='details' element={<CountryDetails />} />
       </Routes>
