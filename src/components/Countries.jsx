@@ -32,35 +32,20 @@ function Countries() {
     fetchData();
   }, []);
 
-  // const listItems = countries.map((country) => (
-
-  //   <li
-  //     key={country.name.official}
-  //   >
-  //     <div className="container">
-  //       <img
-  //         style={{ height: "100px", width: "200px", borderStyle: "solid" }}
-  //         src={country.flags.png}
-  //       />
-  //       <h3>{country.name.official}</h3>
-  //       <button type="button" className="btn btn-primary" onClick={() => details(country)}>Get Details</button>
-  //     </div>
-  //   </li>
-  // ));
-
   return (
     <>
       <h2 id="title">Search Results</h2>
-      {/* <ul id="results">{listItems}</ul> */}
-      <Box sx={{ maxWidth: "100%" }}>
-        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+      
+      <Box sx={{ maxWidth: "100%"  }}>
+        <Grid container columnSpacing={{ xs: 1, sm: 2, md: 1 }}>
           {countries.map((country) => (
-            <Grid xs={3}>
-              <Card sx={{ maxWidth: 400 }}>
+            <Grid xs={3} >
+              <Card sx={{ maxWidth: '90%'}}>
                 <CardMedia
                   sx={{ height: 200 }}
                   image={country.flags.png}
                   title={country.name.official}
+                  onClick={() => details(country)}
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
