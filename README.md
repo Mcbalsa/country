@@ -3,7 +3,7 @@
 <h3>User Searches for a a country based on name, currency, or language</h3>
 <img src="https://user-images.githubusercontent.com/93947154/270463256-e6a1ee3b-a006-4dd1-9dcf-a3fec3cb5aa6.png"></img>
 <h3>Users selects a country based on search results</h3>
-<img src="https://user-images.githubusercontent.com/93947154/270463273-29b0588b-2a54-40fd-a7be-95cf39530422.png"></img>
+![firefox_pxgvMZVqx8](https://github.com/Mcbalsa/country/assets/93947154/a6852ba3-ec6b-4af6-9659-b78096bf48f4)
 <h3>User views the country detials and sees it in google maps</h3>
 <img src="https://user-images.githubusercontent.com/93947154/270463282-80f50039-553c-4407-bd76-6d29a1a03918.png"></img>
 <img src="https://user-images.githubusercontent.com/93947154/270463299-f5b89a72-63c8-4619-bf7c-f265356251f2.png"></img>
