@@ -5,8 +5,11 @@
 <h3>Users selects a country based on search results</h3>
 <img src="https://github.com/Mcbalsa/country/assets/93947154/a6852ba3-ec6b-4af6-9659-b78096bf48f4"></img>
 <h3>User views the country detials and sees it in google maps</h3>
-<img src="https://user-images.githubusercontent.com/93947154/270463282-80f50039-553c-4407-bd76-6d29a1a03918.png"></img>
-<img src="https://user-images.githubusercontent.com/93947154/270463299-f5b89a72-63c8-4619-bf7c-f265356251f2.png"></img>
+
+
+https://github.com/Mcbalsa/country/assets/93947154/065c7f3e-9f71-4a3d-8199-1fffd498551a
+
+
 </br>
 <h3>Lessons learned from the Project</h3>
 <ul>
